@@ -305,6 +305,10 @@ h1#planHeader{
 	.twoItems, .skunkPlan{
 		width: 100%;
 	}
+	
+	h1 {
+    	text-align: center;
+	}
 }
 
 @media screen and (max-width: 429px){
@@ -326,7 +330,4 @@ h1#planHeader{
 		margin-right: auto;
 	}
 
-	h1 {
-    	text-align: center;
-	}
 }
