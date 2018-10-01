@@ -32,6 +32,15 @@ svg#siteLogo{
 	vertical-align: middle;
 }
 
+ul#navBar{
+	padding: 0px;
+}
+
+a#siteLogo, ul#navBar{
+	margin-left: auto;
+    margin-right: auto;
+}
+
 #siteHeader{
 	max-width: 100%;
     margin: 10px auto;
