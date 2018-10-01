@@ -168,7 +168,8 @@ h1#planHeader{
 }
 
 .container{
-	max-width: 100%;
+	width: 100%;
+	/*max-width: 100%;*/
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -282,5 +283,11 @@ h1#planHeader{
 	.planImage{
 		width: 75px;
 		height: 75px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.twoItems, .skunkPlan{
+		width: 100%;
 	}
 }
