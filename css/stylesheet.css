@@ -17,6 +17,10 @@ p{
 	font-size: 1.1rem;
 }
 
+main{
+	max-width: 100%;
+}
+
 #mainContent, header{
 	padding: 20px;
 }
@@ -77,7 +81,7 @@ abbr>a{
 }
 
 nav > ul > li{
-    display: inline;
+    display: inline-block;
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -96,6 +100,7 @@ nav > ul > li{
 	color: #ED7161;
 	margin: auto;
 	text-transform: uppercase;
+	max-width: 100%;
 }
 
 .emphasis{
@@ -286,8 +291,28 @@ h1#planHeader{
 	}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 649px){
 	.twoItems, .skunkPlan{
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 429px){
+	#siteTitle{
+		text-align: center;
+	}
+	#siteHeader__details{
+		width: 100%;
+	}
+
+	#siteHeader{
+		max-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	svg#siteLogo{
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
